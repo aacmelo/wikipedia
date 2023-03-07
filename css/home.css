@@ -30,7 +30,7 @@ body, html {
 
 .banner {
     text-align: center;
-    margin: 1% 1% 0;
+    margin: 1% -2% 0;
 }
 
 .content {
@@ -47,7 +47,7 @@ body, html {
 
 .sidebar {
     border-right: solid 1px #cdcdcc;
-    width: 220px;
+    width: 200px;
 }
 
 ul {
@@ -64,6 +64,10 @@ a {
     margin: 15% 10%; 
 }
 
+.voltar {
+    margin: 0% 90%;
+}
+
 .anchors {
     border-left: solid 1px #cdcdcc;
     padding-left: solid 1px #cdcdcd;
@@ -76,7 +80,7 @@ a {
 
 .gdt {
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     margin: -7%;
 }
 
@@ -87,13 +91,13 @@ a {
 
 .table {
     text-align: left;
-    margin: 1% 7%;
+    margin: 1% 4%;
     font-size:12px;
     border: 1px;
 }
 
 .footer {
-    min-height: 100px;
+    min-height: 10px;
     border-top: solid 1px #cdcdcd;
     font-size: 12px;
 }

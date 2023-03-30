@@ -11,6 +11,12 @@ body, html {
     margin: 1% 2% 0%;
 }
 
+@media(max-width: 320px) {
+    .logo {
+        margin: 0% 22%;
+    }
+}
+
 .form {
     text-align: center;
     margin: -4% 35% 0%;
@@ -20,6 +26,15 @@ body, html {
     width: 350px;
 }
 
+@media(max-width: 320px){
+    .form {
+     margin: 0% 10%;
+    }
+    .form,input {
+        width: 250px;
+    }
+ }
+ 
 .bar {
     background-color: black;
     color: black;
@@ -28,13 +43,44 @@ body, html {
     border-bottom: solid 1px black;
 }
 
-.banner {
+@media(max-width: 1200px){
+    .bar {
+        width: 1000px;
+    }
+}
+
+@media(max-width: 1024px){
+    .bar {
+        width: 700px;
+    }
+}
+
+@media(max-width: 768px){
+    .bar {
+        width: 400px;
+    }
+}
+
+@media(max-width: 425px){
+    .bar {
+        width: 320px;
+    }
+}
+
+.banner-1 {
     text-align: center;
-    margin: 1% -2% 0;
+    margin: 1% 1% 0;
+    max-width: 100%;
+}
+
+@media(max-width: 320px){
+    .banner-2 {
+        margin: 0% -1%;
+    }
 }
 
 .content {
-    max-width: 1440px;
+    max-width: 100%;
     margin: auto;
     grid-gap: 3rem;
     display: grid;
@@ -43,13 +89,25 @@ body, html {
     grid-template-columns: minmax(0,15rem) minmax(0,2. 5fr) minmax(0,15rem);
     padding-left: 1rem;
     padding-right: 1rem;
-}
+}   
 
 .sidebar {
     border-right: solid 1px #cdcdcc;
     width: 200px;
 }
 
+@media(max-width: 320px) {
+    .content {
+        flex-wrap: wrap;
+    }
+    .sidebar, .content, .anchors {
+        display: block;
+    } 
+    .sidebar {
+        border: none;
+    } 
+}
+    
 ul {
     list-style: none;
     padding-left: 5px;
@@ -61,7 +119,11 @@ a {
 }
 
 .conteudo {
-    margin: 15% 10%; 
+    margin: 10% 5%; 
+}
+
+.menu {
+    margin: -5% -6%;
 }
 
 .voltar {
@@ -102,12 +164,30 @@ a {
     font-size: 12px;
 }
 
+@media(max-width: 400px){
+    .footer {
+        width: 320px;
+    }
+} 
+
 .wikipedia {
     text-align:right;
     margin: -4% 10%;
 }
 
+@media(max-width: 320px){
+   .wikipedia {
+      display: none;
+   }
+}
+
 .mediawiki{
     text-align:right;
     margin: 1% 1%;
+}
+
+@media(max-width: 320px){
+    .mediawiki {
+        display: none;
+    }
 }

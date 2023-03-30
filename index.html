@@ -11,7 +11,7 @@
 </head>
 <body>
     <div>    
-     <head>
+     <header>
         <div>
             <figure class="logo">
                 <img src="img/1 wikipedia.png" alt="Logotipo do Wikipedia" title="Wikipedia Logotipo">
@@ -22,16 +22,19 @@
             </form>
         </div>
         <div class="bar">
-            <figure class="banner">
-                <img src="img/banner.png" alt="Apresentação do Banner" title="Banner">
-            </figure>
+            <picture>
+                <source srcset="img/banner-2.jpg" media="(max-width: 320px)" class="banner-2">
+                <source srcset="img/banner-1.png" media="(max-width: 1500px)">
+                <img src="img/banner-1.png" class="banner-1" alt="Apresentação do Banner" title="Banner">
+            </picture>
         </div>
-     </head>  
-        <div class="content">
+     </header>
+     <main>  
+        <div class=content>
             <div class="sidebar">
                 <h3 class="conteudo" id="conteudo">Conteúdo</h3>
                 <nav>
-                <ul>
+                <ul class="menu">
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#sinopse">Sinopse</a></li>
                     <li><a href="#episodios">Episódios</a></li>
@@ -308,8 +311,10 @@
                     </tbody>
                 </table>
             </div>            
-    </div>
-           <div class="footer">
+            </div>
+         </main>
+         <footer>  
+         <div class="footer">
             <p>Esta página foi editada pela última vez às 21h05min de 9 de janeiro de 2023.</p>
             Este texto é disponibilizado nos termos da licença Atribuição-CompartilhaIgual 3.0 Não Adaptada (CC BY-SA 3.0) da Creative Commons;
             pode estar sujeito a condições adicionais.<br>Para mais detalhes, consulte as condições de utilização.<br>
@@ -320,7 +325,9 @@
             </figure>
             <figure class="mediawiki">
                 <img src="img/3 wikipedia.png" alt="Imagem do Media Wiki" title="Media Wikipédia">
-            </figure>   
-        </div>
+            </figure>
+         </div>    
+        </footer>      
+    </div>
 </body>
 </html>

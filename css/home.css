@@ -11,9 +11,9 @@ body, html {
     margin: 1% 2% 0%;
 }
 
-@media(max-width: 320px) {
+@media screen and (max-width: 480px) {
     .logo {
-        margin: 0% 22%;
+        margin: 0% 29%;
     }
 }
 
@@ -26,16 +26,16 @@ body, html {
     width: 350px;
 }
 
-@media(max-width: 320px){
+@media screen and (max-width: 480px){
     .form {
-     margin: 0% 10%;
+     margin: 0% 15%;
     }
     .form,input {
-        width: 250px;
+        width: 305px;
     }
  }
- 
-.bar {
+
+ .bar {
     background-color: black;
     color: black;
     padding: 5px;
@@ -43,27 +43,27 @@ body, html {
     border-bottom: solid 1px black;
 }
 
-@media(max-width: 1200px){
+@media screen and (max-width: 1200px){
     .bar {
         width: 1000px;
     }
 }
 
-@media(max-width: 1024px){
+@media screen and (max-width: 1024px){
     .bar {
         width: 700px;
     }
 }
 
-@media(max-width: 768px){
+@media screen and (max-width: 768px){
     .bar {
         width: 400px;
     }
 }
 
-@media(max-width: 425px){
+@media screen and (max-width: 480px){
     .bar {
-        width: 320px;
+        width: 480px;
     }
 }
 
@@ -73,14 +73,15 @@ body, html {
     max-width: 100%;
 }
 
-@media(max-width: 320px){
+@media screen and (max-width: 480px){
     .banner-2 {
+        width: 1000px;
         margin: 0% -1%;
     }
 }
 
 .content {
-    max-width: 100%;
+    max-width: 1000%;
     margin: auto;
     grid-gap: 3rem;
     display: grid;
@@ -96,7 +97,7 @@ body, html {
     width: 200px;
 }
 
-@media(max-width: 320px) {
+@media screen and (max-width: 480px) {
     .content {
         flex-wrap: wrap;
     }
@@ -164,9 +165,9 @@ a {
     font-size: 12px;
 }
 
-@media(max-width: 400px){
+@media screen and (max-width: 480px){
     .footer {
-        width: 320px;
+        width: 480px;
     }
 } 
 
@@ -175,9 +176,9 @@ a {
     margin: -4% 10%;
 }
 
-@media(max-width: 320px){
+@media screen and (max-width: 480px){
    .wikipedia {
-      display: none;
+      margin: 0% 40%;
    }
 }
 
@@ -186,8 +187,8 @@ a {
     margin: 1% 1%;
 }
 
-@media(max-width: 320px){
+@media screen and (max-width: 480px){
     .mediawiki {
-        display: none;
+        margin: 5% 40%;
     }
 }

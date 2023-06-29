@@ -31,7 +31,7 @@ body,html {
 .banner-1 {
     text-align: center;
     margin: 1% 1% 0;
-    max-width: 100%;
+    max-width: 98%;
 }
 
 .content {
@@ -117,39 +117,40 @@ a {
     margin: 1% 1%;
 }
 
-@media screen and (max-width: 363px) {
+@media screen and (max-width: 360px) {
     .bar {
-        width: 800px;
+        width: 320px;
     }
 }
 
-@media screen and (max-width: 363px) {
+@media screen and (max-width: 360px) {
     .logo {
-        margin: 1% 85%;
+        margin: 4% 16%;
+        width: 70%;
     }
 }
 
-@media screen and (max-width: 363px) {
+@media screen and (max-width: 360px) {
     .form {
-        margin: 0% 50%;
+        margin: 0% 2%;
     }
 
     .form, input {
-        width: 500px;
+        width: 310px;
     }
 }
 
-@media screen and (max-width: 363px) {
+@media screen and (max-width: 360px) {
     .banner-2 {
-        margin: 0% 2%;
+        margin: 0% -1,5%;
     }
 }
 
-@media screen and (max-width: 363px) {
+@media screen and (max-width: 360px) {
     .content {
+        margin: 0% -1%;
         flex-wrap: wrap;
-        width: 840px;
-        font-size: 45px;
+        width: 290px;
     }
   
     .sidebar, .content, .anchors {
@@ -158,49 +159,50 @@ a {
 
     .sidebar {
         border: none;
+        margin: 0% -4%;
     }
     
     .anchors {
         border: none;
-        width: 800px;
+        width: 290px;
     }
     
     .got {
-        font-size: 70px;
+        font-size: 20px;
     }
 
     .gdt {
-        font-size: 40px;
+        font-size: 20px;
     }
 
     .brasao {
-        margin: 1% -1%;
+        margin: 0% -3%;
+        width: 10px;
     }
     
 }
 
-@media screen and (max-width: 365px){
-    .table {
-        margin: 0% 5%;
-        font-size: 45px;
+@media screen and (max-width: 360px){
+    .table {    
+        margin: 0% -2%;
     }
 }
 
-@media screen and (max-width: 363px) {
+@media screen and (max-width: 360px) {
     .footer {
-        width: 900px;
-        font-size: 40px;
+        margin: 0% 3%;
+        width: 320px;
     }
 }
 
-@media screen and (max-width: 363px) {
+@media screen and (max-width: 360px) {
     .wikipedia {
-        margin: 0% 40%;
+        margin: 0% 30%;
     }
 }
 
-@media screen and (max-width: 363px) {
+@media screen and (max-width: 360px) {
     .mediawiki {
-        margin: 5% 40%;
+        margin: 5% 30%;
     }
 }

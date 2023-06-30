@@ -208,3 +208,100 @@ a {
         margin: 5% 30%;
     }
 }
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    .bar {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .logo {
+        margin: 4% 20%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .form {
+        margin: 0% 9%;
+    }
+
+    .form, input {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .banner-2 {
+        margin: 0% 2%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .main {
+        margin: 0% -1%;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        text-align: center;
+    }
+  
+    .sidebar, .content, .anchors {
+        display: block;
+    }
+
+    .sidebar {
+        border: none;
+        margin: 4% 15%;
+        text-align: center;
+    }
+    
+    .anchors {
+        border: none;
+        width: 290px;
+    }
+    
+    .got {
+        font-size: 20px;
+    }
+
+    .gdt {
+        font-size: 20px;
+    }
+
+    .brasao {
+        margin: 0% -1%;
+        width: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 720px){
+    .table {    
+        margin: 0% -2%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer {
+        margin: 0% 3%;
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .wikipedia {
+        margin: 0% 30%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .mediawiki {
+        margin: 5% 30%;
+    }
+}

@@ -109,12 +109,12 @@ a {
 
 .wikipedia {
     text-align: right;
-    margin: -4% 10%;
+    margin: 1% 30%;
 }
 
 .mediawiki {
     text-align: right;
-    margin: 1% 1%;
+    margin: 1% -15%;
 }
 
 @media screen and (max-width: 360px) {

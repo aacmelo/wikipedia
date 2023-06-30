@@ -132,7 +132,7 @@ a {
 
 @media screen and (max-width: 360px) {
     .form {
-        margin: 0% 5%;
+        margin: 0% 15%;
     }
 
     .form, input {
@@ -214,9 +214,11 @@ a {
 
 
 
+
+
 @media screen and (max-width: 720px) {
     .bar {
-        width: 310px;
+        width: 320px;
     }
 }
 
@@ -233,7 +235,7 @@ a {
     }
 
     .form, input {
-        width: 310px;
+        width: 305px;
     }
 }
 
@@ -257,7 +259,7 @@ a {
 
     .sidebar {
         border: none;
-        margin: 4% 15%;
+        margin: 4% 20%;
         text-align: center;
     }
     
